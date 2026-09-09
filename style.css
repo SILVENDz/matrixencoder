@@ -1,0 +1,129 @@
+
+body{
+    background-color: #191d1a;
+    align-items: center;
+    background-image: linear-gradient(rgba(25, 29, 26, 0.5), rgba(25, 29, 26, 0.5)), url("frutigero.jpg");
+    background-size: cover;
+}
+h1{
+    color: #0c8416;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Geist Pixel', sans-serif;
+    background-color:#3b3e3c;
+    padding: 10px;
+    margin: 20 px;
+}
+.nav {
+    background-color: #f7ace8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Geist Pixel', sans-serif;
+    border: 2px solid #0c8416;
+    font-size: 20px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:#3b3e3c;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Geist Pixel', sans-serif;
+    width: max-content;
+}
+ul li{
+    float:left;
+}
+ul li a {
+    display:block;
+    color:#0c8416;
+    text-align:center;
+    text-decoration:none;
+    padding: 7px 8px;
+}
+ul li a:hover{
+    background-color:#232724
+}
+ul li a.active{
+    background-color:#232724;
+}
+li img {
+    width: 80px;
+    height: 50px;
+}
+marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.marquee-content {
+    width: 100%;
+    overflow: hidden;
+}
+.marquee-content h1 {
+    display: inline-block;
+    color: #0c8416;
+    font-family: 'Geist Pixel', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    font-size: 40px;
+}
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #3b3e3c;
+    padding: 0px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+}
+.message {
+    color: #0c8416;
+    font-family: 'Geist Pixel', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+    background-color: #3b3e3c;
+}
+.response {
+    color: #0c8416;
+    font-family: 'Geist Pixel', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+    background-color: #3b3e3c;
+}
+.container2{
+    display: flex;
+    column-gap: 20px;
+}
+.explanation {
+    color: #0c8416;
+    font-family: 'Geist Pixel', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+    background-color: #3b3e3c;
+}
+.key {
+    color: #0c8416;
+    font-family: 'Geist Pixel', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+    background-color: #3b3e3c;
+}
