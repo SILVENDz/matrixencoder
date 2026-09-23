@@ -6,13 +6,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
-
+<script src="script.js"></script>
 <body>
     <div class="nav_bar">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Matrix</a></li>
                  <li><a href="matrix.html">How?</a></li>
             </ul>
         </nav>
@@ -25,20 +28,47 @@
     </div>
 </div>
 
+<div class="fyi">
+<h2>Message Encoder (..◜ᴗ◝..) </h2>
+</div>
 
 <div class="container">
     <div class="message">
-        Type in a message to encode
-    </div>
+<textarea id="message" placeholder="Enter your message here..."></textarea>
+<button onclick="encodeMessage()">Encode!</button>
+<div id="output"></div>
 
+
+    </div>
     <div class="response">
-        ...
+    <div id = "result"></div>
     </div>
-
 </div>
+<div class="fyi">
+<h2>Message Decoder (๑•᎑•๑)</h2>
+</div>
+
+<div class="container2">
+    <div class="message">
+    <textarea id="encodedMessage" placeholder="Enter your encoded message here..."> </textarea>
+    
+<button onclick="decodeMessage()">Decode!</button>
+
+    </div>
+    <div class="response">
+    <div id = "decodedResult"></div>
+    </div>
+</div>
+
+<div class= divider>
+    « ✦ —⋆——― ꒰ঌ·✦·໒꒱ ———⋆— ✦ »
+<footer class = "love">
+    <p>With &lt;3 by <a href="https://hackclub.enterprise.slack.com/team/U0B8RCANTV4">Eli</a> </p>
+</footer>
+
 </body>
 
 
 
-
 </html>
+
