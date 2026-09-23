@@ -12,7 +12,7 @@
     <div class="nav_bar">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Matrix</a></li>
                  <li><a href="matrix.html">How?</a></li>
             </ul>
         </nav>
@@ -24,15 +24,47 @@
     </marquee>
     </div>
 </div>
+<div class="fyi">
+<h2>FYI! The containers are scrollable!! </h2>
+</div>
 <div class="container2">
     <div class="explanation">
-        placeholder heh
-    </div>
+<p>Hi there! (˶ˆᗜˆ˵)  It's pretty neat to have a tool that can encode/decode messages for you, but have you ever wondered how matrices actually work in cryptopgraphy? For that, you will need a couple of things:</p>
+<ul class = "list">
+    <li>A letter-to-number key (included on the right)</li>
+    <li>A matrix key (also on the right!)</li>
+    <li>Understand matrix multiplication</li>
+    <li>Understand how to take the inverse of a matrix</li>
+    <li>Lots of patience...</li>
+</ul>
+<ul class ="list2">
+<li>For example, lets say I wanted to send my buddy a message without anyone else being able to read it. For simplicity, my message will be "HELLO". </li>
+<img src="Hello1.png" alt="Hello1">
+<li>Using the key on the right, I will convert the message into numerical form. In this case, "HELLO" will become "8 5 12 12 15".</li>
+<li>Then, you will create 2 number matrices (1 row, 2 columns) using the numbers derived from the message. If there is an odd number of letters, you will add a _ (which tanslated to a 0)</li>
+<li>In this case, your matrix will look like this: [8 5] [12 12] [15 0]</li>
+<img src="Hello2.png" alt="Hello2">
+<li>Then, you will multiply the message matrix by the matrix key (on the right). The result will be a new matrix that is your encoded message!</li>
+<li>Your resulting matrix should look kinda like this!:</li>
+<img src="multiply.heic" alr="multiplication">
+<li>Look at my matrix multiplication guide <a style="display: flex; align-items: center;" href="multiplication.html">Here!</a></li>
+
+</ul> 
+  </div>
 
     <div class="key">
-    placeholder paceholder i swear there is somwthign here
+        <h2>Letter-to-number and Matrix key! (˶˃ ᵕ ˂˶)</h2>
+        <img src="key.png" alt="key">
+        <img src="key2.png" alt="matrix key">
+    
     </div>
 
 </div>
 
 </div>
+
+<footer class = "love">
+    <p>With &lt;3 by <a href="https://hackclub.enterprise.slack.com/team/U0B8RCANTV4">Eli</a> </p>
+</footer>
+
+</body>
