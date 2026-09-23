@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>matrixencoder</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav_bar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="matrix.html">How?</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="marquee-container">
+    <div class="marquee-content">
+    <marquee behavior="scroll" direction="left">
+        <h1><b>More About Matrices!!</b></h1>
+    </marquee>
+    </div>
+</div>
+<div class="fyi">
+<h2>FYI! The containers are scrollable!! </h2>
+</div>
+<div class="container2">
+    <div class="explanation">
+Hello! If you have not taken Algebra 2 (or forgot about matrices), you may be wondering- "Eli, what the FLIP does any of this mean?" Worry not, that this is a simple(I hope) guide or introduction to all you need to know about Matrices in order to understand their use in cryptography!!
+
+  <p>Things to know:</p>
+  <ul style="display: flex; flex-direction: column;">
+<li>What are Matrices used for?
+</li>
+<li>How do Matrix dimensions work?</li>
+<li>How are matrices multiplied?</li>
+<li>How to solve for the determinant and inverse matrix</li>
+<li>How to put it all together?</li>
+</ul>
+
+
+</div>
+    <div class="key">
+<li style="font-size: larger;">1. What are matrices used for?</li>
+Matrices are a grid of numers and symbols that are set up in rows or columns. Typically, they can be used to arrange sets of data. In math, they are used to solve systems of equation,
+arrange data, or geometric transformations.
+
+<li style="font-size: larger;">2. How do Matrix diemsions work?</li>
+ matrices come in all sizes! Their dimensions are determined after their number of rows x columns</li>
+
+<li style="font-size: larger;">3. How to multiply matrices?</li>
+<li>Multiplying matrices is not the most intuitive thing, but here is a little graphic! (credits to charchithowitzer)</li>
+<img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*HjcZkViYtPKg-Wm2o7DFDg.png">
+<li>Keep in mind that in order to multiply matrices, the columns of matrix A must equal the number of. rows of matrix B</li>
+<li>Then, the dimensions of your new matrix will be equal to the rows of matrix A by the columns of Matrix B.</li>
+<li>If I have a 3x2 matrix and a 2x2 matrix, my resulting matrix will have a dimension of 3x2</li>
+<li>Basically, you first multiply row one of your first matrix by column one of your second matrix.</li>
+<li>Add them all up to get your first value of your resulting Matrix.</li>
+<li>Keep this pattern up until your resulting matrix is completely filled according to the dimensions.</li>
+<li style="font-size: larger;">4. How to find the determinant and inverse matrix?</li>
+Lets say I am given the following matrix:
+<img src="key2.png">
+<li>In order to find the determinant, I will take value a times value d and subtract value b times value c (ad-bc)</li>
+<li>Therefore, your determinant will be (1)(3) - (2)(1) = 1</li>
+<li>Now, to get your inverse Matrix, you will use 1/(determinant). Since our determinant for our specific matrix is equal to one, 1/1 is also just one.</li>
+<li>We then multiply this value by a modified version of our matrix. We willswitch values a and d and then negate values b and c this way:</li>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20241230165246174484/inverse-of-a-matrix.webp" style="width: 100%; object-fit: cover;">
+    </div>
+
+</div>
+
+</div>
+
+<footer class = "love">
+    <p>With &lt;3 by <a href="https://hackclub.enterprise.slack.com/team/U0B8RCANTV4">Eli</a> </p>
+</footer>
+
+</body>
+
+<style>
+    li{
+        padding: 5px;
+    }
+</style>
